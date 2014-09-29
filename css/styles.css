@@ -10336,31 +10336,69 @@ body {
 .link-buttons .button {
   margin: 0;
   background-color: #222;
-  font-variant: small-caps;
+  text-transform: uppercase;
   line-height: .65em;
-  font-weight: bold;
-  color: #eee;
+  font-weight: 500;
+  color: #ccc;
+  background-image: linear-gradient(to bottom, #1a1a1a, #1b1b1b);
 }
-/* line 21, ../scss/_style.scss */
+/* line 25, ../scss/_style.scss */
 .link-buttons .first {
-  border-right: 1px solid #333;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
 }
-/* line 26, ../scss/_style.scss */
+/* line 31, ../scss/_style.scss */
 .link-buttons .second {
-  border-right: 1px solid #333;
+  border-right: 1px solid #222;
+}
+/* line 36, ../scss/_style.scss */
+.link-buttons .third {
+  border-right: 1px solid #222;
+}
+/* line 41, ../scss/_style.scss */
+.link-buttons .fourth {
+  border-top: 1px solid #222;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+/* line 49, ../scss/_style.scss */
+.link-buttons .fith {
+  border-top: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+/* line 56, ../scss/_style.scss */
+.link-buttons .sixth {
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+/* line 62, ../scss/_style.scss */
+.link-buttons .atlas {
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  border-bottom: 1px solid #222;
+  font-weight: 300;
+  font-size: .75em;
+  color: #2c2c2c;
+  line-height: 0em;
+}
+/* line 72, ../scss/_style.scss */
+.link-buttons .atlas strong {
+  color: #333;
 }
 
-/* line 45, ../scss/_style.scss */
+/* line 83, ../scss/_style.scss */
 .middle {
   width: 100%;
-  border-top: 1px solid #333;
+  border-top: 1px solid #222;
 }
 
-/* line 51, ../scss/_style.scss */
+/* line 89, ../scss/_style.scss */
 .logo {
   text-align: center;
 }
-/* line 55, ../scss/_style.scss */
+/* line 93, ../scss/_style.scss */
 .logo a {
   border: 1px solid #333;
   color: #eee;
@@ -10368,15 +10406,15 @@ body {
   font-variant: small-caps;
   border-radius: .3em;
 }
-/* line 64, ../scss/_style.scss */
+/* line 102, ../scss/_style.scss */
 .logo img {
   width: 200px;
   margin-top: 10%;
 }
 
-/* line 72, ../scss/_style.scss */
+/* line 110, ../scss/_style.scss */
 .bottom {
-  border-top: 1px solid #333;
+  border-top: 1px solid #222;
   position: absolute;
   bottom: 0;
 }

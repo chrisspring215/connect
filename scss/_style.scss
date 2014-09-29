@@ -11,40 +11,78 @@ body
 	{
 		margin: 0;
 		background-color: #222;
-		font-variant: small-caps;
+		text-transform: uppercase;
 		line-height: .65em;
-		font-weight: bold;
-		color: #eee;
+		font-weight: 500;
+		color: #ccc;
+
+		background-image: linear-gradient(to bottom, 
+      #1a1a1a, #1b1b1b
+    );
 	}
 
 	.first
 	{
-		border-right: 1px solid #333;
+		border-right: 1px solid #222;
+		border-left: 1px solid #222;
 	}
 
 	.second
 	{
-		border-right: 1px solid #333;
+		border-right: 1px solid #222;
 	}
 
 	.third
 	{
+		border-right: 1px solid #222;
+	}
 
+	.fourth
+	{
+		border-top: 1px solid #222;
+		border-right: 1px solid #222;
+		border-left: 1px solid #222;
+		border-bottom: 1px solid #222;
+	}
 
+	.fith
+	{
+		border-top: 1px solid #222;
+		border-right: 1px solid #222;
+		border-bottom: 1px solid #222;
+	}
+
+	.sixth
+	{
+		border-right: 1px solid #222;
+		border-bottom: 1px solid #222;
+	}
+
+	.atlas
+	{
+		border-right: 1px solid #222;
+		border-left: 1px solid #222;
+		border-bottom: 1px solid #222;
+		font-weight: 300;
+		font-size: .75em;
+		color: #2c2c2c;
+		line-height: 0em;
+
+		strong
+		{
+			color: #333;
+		}
 	}
 
 	.button-icon
-	{
-
-
+	{		
 	}
-
 }
 
 .middle
 {
 	width: 100%;
-	border-top: 1px solid #333;
+	border-top: 1px solid #222;
 }
 
 .logo
@@ -70,7 +108,7 @@ body
 
 .bottom
 {
-	border-top: 1px solid #333;
+	border-top: 1px solid #222;
 	position: absolute;
 	bottom: 0;
 }
